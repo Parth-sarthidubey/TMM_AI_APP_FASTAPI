@@ -1,0 +1,303 @@
+Is this a maintenance request?:
+  description: Check if this is a maintenance request. These include oil change, tire
+    rotations, fluids top off, etc. Does not include any urgent or one-time repairs
+    like fluid leak, flat tires, engine overheating, etc.
+  options: {}
+Do you see any warning lights?:
+  description: Check if any warning lights are displayed on the dashboard. This is
+    one of the easiest visual ways to diagnose an issue, and is an important detail
+    for technicians to know.
+  options:
+    AEB:
+      description: AEB
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Air Bag:
+      description: Air Bag
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Brake:
+      description: Brake
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Check engine:
+      description: Check engine
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    High Temp:
+      description: High Temp
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Low Battery:
+      description: Low Battery
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Low Oil:
+      description: Low Oil
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Low Tire:
+      description: Low Tire
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Master Warning:
+      description: Master Warning
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Power Steering:
+      description: Power Steering
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Hands Off:
+      description: Hands Off
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Seat Belt:
+      description: Seat Belt
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Security:
+      description: Security
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Service Soon:
+      description: Service Soon
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Slip:
+      description: Slip
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    Other:
+      description: Other
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+    None/Do not know:
+      description: None/Do not know
+      options:
+        Flashing:
+          description: Flashing
+          options: {}
+        Intermittent:
+          description: Intermittent
+          options: {}
+        On Steady:
+          description: On Steady
+          options: {}
+        Was on in the Past:
+          description: Was on in the Past
+          options: {}
+What do you see?:
+  description: Any symptoms of malfunction that can be seen like smoke, rust, bent
+    or broken material.
+  options: {}
+What do you hear?:
+  description: Any symptoms of malfunction that can be seen like smoke, rust, bent
+    or broken material.
+  options: {}
+What do you smell?:
+  description: null
+  options: {}
+What do you feel?:
+  description: null
+  options: {}
+What do you taste?:
+  description: null
+  options: {}
+Are there any operational difficulties?:
+  description: These are difficulties or malfunctioning observed with operating specific
+    components in the car. For example, the brakes not engaging, the door handle being
+    jammed, the audio player not working, etc.
+  options: {}
+What environmental conditions does this occur in?:
+  description: null
+  options: {}
+What road conditions does this occur in?:
+  description: null
+  options: {}
+When during vehicle operation does it occur?:
+  description: null
+  options: {}
+What driving conditions does it occur in?:
+  description: In which specific part or parts of the driving experience do these
+    issues occur?
+  options: {}
+Since When Does This Occur?:
+  description: null
+  options: {}
